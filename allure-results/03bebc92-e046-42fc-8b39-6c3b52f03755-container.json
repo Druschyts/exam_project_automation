@@ -1,0 +1,1 @@
+{"uuid":"03bebc92-e046-42fc-8b39-6c3b52f03755","name":"by.stormnet.web.OnlinerVideoCardsTest","children":["c0c5cc0b-7004-4e84-ba04-ad298f1bca7f"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1579612218309,"stop":1579612219980}],"afters":[],"links":[],"start":1579612116752,"stop":1579612407303}

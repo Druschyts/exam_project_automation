@@ -1,0 +1,1 @@
+{"uuid":"b3cd130b-096f-486d-b761-b8f3b94eb146","name":"by.stormnet.web.OnlinerWeatherTest","children":["bb8223f1-8ae3-414e-a45c-a952e350e497"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1579612975689,"stop":1579612977548}],"afters":[],"links":[],"start":1579612921398,"stop":1579613166331}

@@ -1,0 +1,1 @@
+{"uuid":"59b0654f-f6d2-4296-bd33-8131abe183bd","name":"by.stormnet.web.OnlinerCoursesTest","children":["db4b0505-39a1-4e10-bc89-3e4e178d2d07"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1579612176508,"stop":1579612177734}],"afters":[],"links":[],"start":1579612116752,"stop":1579612407187}

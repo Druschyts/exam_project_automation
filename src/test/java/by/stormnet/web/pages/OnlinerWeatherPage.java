@@ -1,7 +1,7 @@
 package by.stormnet.web.pages;
 
 public class OnlinerWeatherPage extends AbstractPage {
-    private String weatherButton = "//i[@class='phenomena-icon extra-small A10']";
+    private String weatherButton = "//*[@id=\"weather-informer\"]/a/span";
     private String checkWeather = "//div[@class='b-weather-today__city-i']//p";
 
     public LoginOnlinerPage getLoginPage() {

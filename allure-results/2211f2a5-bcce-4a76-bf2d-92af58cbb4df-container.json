@@ -1,0 +1,1 @@
+{"uuid":"2211f2a5-bcce-4a76-bf2d-92af58cbb4df","name":"by.stormnet.web.OnlinerBarRadioTest","children":["db0a912c-f396-461a-afff-d1c6e048bd0d"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1579613125322,"stop":1579613127105}],"afters":[],"links":[],"start":1579612921396,"stop":1579613166297}
