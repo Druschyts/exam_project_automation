@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Acceptance suite">
+<!--        <listeners>-->
+<!--            <listener class-name="by.stormnet.automation.core.common.AnnotationTransformer"/>-->
+<!--        </listeners>-->
+    <test verbose="2" name="login test">
+        <classes>
+            <class name="by.stormnet.web.LoginOnlinerTest"/>
+            <class name="by.stormnet.web.OnlinerNewsTest"/>
+            <class name="by.stormnet.web.OnlinerCheckCartTest"/>
+            <class name="by.stormnet.web.OnlinerCatalogTest"/>
+            <class name="by.stormnet.web.OnlinerWeatherTest"/>
+            <class name="by.stormnet.web.OnlinerCoursesTest"/>
+            <class name="by.stormnet.web.OnlinerMobilePhoneTest"/>
+            <class name="by.stormnet.web.OnlinerLoptopTest"/>
+            <class name="by.stormnet.web.OnlinerTiresTest"/>
+            <class name="by.stormnet.web.OnlinerPhoensTest"/>
+            <class name="by.stormnet.web.OnlinerClockTest"/>
+            <class name="by.stormnet.web.OnlinerTvTest"/>
+            <class name="by.stormnet.web.OnlinerVideoCardsTest"/>
+            <class name="by.stormnet.web.OnlinerTabletsTest"/>
+            <class name="by.stormnet.web.OnlinerCamerasTest"/>
+            <class name="by.stormnet.web.OnlinerBarMobileTest"/>
+            <class name="by.stormnet.web.OnlinerBarLopTopTest"/>
+            <class name="by.stormnet.web.OnlinerBarSaleRoomTest"/>
+            <class name="by.stormnet.web.OnlinerBarGiftsTest"/>
+            <class name="by.stormnet.web.OnlinerBarRentRoomTest"/>
+            <class name="by.stormnet.web.OnlinerBarTreesTest"/>
+            <class name="by.stormnet.web.OnlinerBarNewYearTest"/>
+            <class name="by.stormnet.web.OnlinerBarClothesTest"/>
+            <class name="by.stormnet.web.OnlinerBarMobileAccTest"/>
+            <class name="by.stormnet.web.OnlinerBarMobileServicesTest"/>
+            <class name="by.stormnet.web.OnlinerBarRadioTest"/>
+            <class name="by.stormnet.web.OnlinerBarAppleTest"/>
+            <class name="by.stormnet.web.OnlinerBarUsbTest"/>
+            <class name="by.stormnet.web.OnlinerBarVideoTest"/>
+            <class name="by.stormnet.web.OnlinerBarDdrTest"/>
+        </classes>
+    </test>
+</suite>

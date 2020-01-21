@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Acceptance suite]" verbose="0">
+  <test thread-count="5" name="login test(failed)" verbose="0">
+    <classes>
+      <class name="by.stormnet.web.OnlinerBarMobileAccTest">
+        <methods>
+          <include name="checkBarMobileAccTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- by.stormnet.web.OnlinerBarMobileAccTest -->
+      <class name="by.stormnet.web.OnlinerBarVideoTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="checkBarVideoTest"/>
+        </methods>
+      </class> <!-- by.stormnet.web.OnlinerBarVideoTest -->
+      <class name="by.stormnet.web.OnlinerLoptopTest">
+        <methods>
+          <include name="checkLoptopTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- by.stormnet.web.OnlinerLoptopTest -->
+      <class name="by.stormnet.web.OnlinerTabletsTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="checkTabletsTest"/>
+        </methods>
+      </class> <!-- by.stormnet.web.OnlinerTabletsTest -->
+      <class name="by.stormnet.web.OnlinerBarAppleTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="checkBarAppleTest"/>
+        </methods>
+      </class> <!-- by.stormnet.web.OnlinerBarAppleTest -->
+      <class name="by.stormnet.web.OnlinerBarRadioTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="checkBarRadioTest"/>
+        </methods>
+      </class> <!-- by.stormnet.web.OnlinerBarRadioTest -->
+      <class name="by.stormnet.web.OnlinerPhoensTest">
+        <methods>
+          <include name="checkPhonesTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- by.stormnet.web.OnlinerPhoensTest -->
+      <class name="by.stormnet.web.OnlinerWeatherTest">
+        <methods>
+          <include name="checkWeatherTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- by.stormnet.web.OnlinerWeatherTest -->
+      <class name="by.stormnet.web.OnlinerVideoCardsTest">
+        <methods>
+          <include name="checkVideoCardsTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- by.stormnet.web.OnlinerVideoCardsTest -->
+      <class name="by.stormnet.web.OnlinerBarGiftsTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="checkBarGiftsTest"/>
+        </methods>
+      </class> <!-- by.stormnet.web.OnlinerBarGiftsTest -->
+      <class name="by.stormnet.web.OnlinerTvTest">
+        <methods>
+          <include name="checkTvTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- by.stormnet.web.OnlinerTvTest -->
+      <class name="by.stormnet.web.OnlinerBarTreesTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="checkBarTreesTest"/>
+        </methods>
+      </class> <!-- by.stormnet.web.OnlinerBarTreesTest -->
+      <class name="by.stormnet.web.OnlinerCoursesTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="checkCourseTest"/>
+        </methods>
+      </class> <!-- by.stormnet.web.OnlinerCoursesTest -->
+      <class name="by.stormnet.web.OnlinerClockTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="checkClockest"/>
+        </methods>
+      </class> <!-- by.stormnet.web.OnlinerClockTest -->
+      <class name="by.stormnet.web.OnlinerBarNewYearTest">
+        <methods>
+          <include name="checkBarNewYearTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- by.stormnet.web.OnlinerBarNewYearTest -->
+      <class name="by.stormnet.web.OnlinerNewsTest">
+        <methods>
+          <include name="openNews"/>
+        </methods>
+      </class> <!-- by.stormnet.web.OnlinerNewsTest -->
+      <class name="by.stormnet.web.LoginOnlinerTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- by.stormnet.web.LoginOnlinerTest -->
+      <class name="by.stormnet.web.OnlinerCamerasTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="checkCamerasTest"/>
+        </methods>
+      </class> <!-- by.stormnet.web.OnlinerCamerasTest -->
+      <class name="by.stormnet.web.OnlinerBarClothesTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="checkBarClothesTest"/>
+        </methods>
+      </class> <!-- by.stormnet.web.OnlinerBarClothesTest -->
+      <class name="by.stormnet.web.OnlinerBarLopTopTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="checkBarLopTopTest"/>
+        </methods>
+      </class> <!-- by.stormnet.web.OnlinerBarLopTopTest -->
+      <class name="by.stormnet.web.OnlinerTiresTest">
+        <methods>
+          <include name="checkTiresTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- by.stormnet.web.OnlinerTiresTest -->
+      <class name="by.stormnet.web.OnlinerBarMobileTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="checkBarMobileTest"/>
+        </methods>
+      </class> <!-- by.stormnet.web.OnlinerBarMobileTest -->
+      <class name="by.stormnet.web.OnlinerCheckCartTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="checkCartTest"/>
+        </methods>
+      </class> <!-- by.stormnet.web.OnlinerCheckCartTest -->
+      <class name="by.stormnet.web.OnlinerCatalogTest">
+        <methods>
+          <include name="searchAndFilter"/>
+        </methods>
+      </class> <!-- by.stormnet.web.OnlinerCatalogTest -->
+      <class name="by.stormnet.web.OnlinerBarSaleRoomTest">
+        <methods>
+          <include name="checkBarSaleRoomTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- by.stormnet.web.OnlinerBarSaleRoomTest -->
+      <class name="by.stormnet.web.OnlinerBarMobileServicesTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="checkBarMobileServicesTest"/>
+        </methods>
+      </class> <!-- by.stormnet.web.OnlinerBarMobileServicesTest -->
+      <class name="by.stormnet.web.OnlinerBarRentRoomTest">
+        <methods>
+          <include name="checkBarRentRoomTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- by.stormnet.web.OnlinerBarRentRoomTest -->
+      <class name="by.stormnet.web.OnlinerMobilePhoneTest">
+        <methods>
+          <include name="checkMobilePhoneTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- by.stormnet.web.OnlinerMobilePhoneTest -->
+      <class name="by.stormnet.web.OnlinerBarUsbTest">
+        <methods>
+          <include name="checkDarUsbTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- by.stormnet.web.OnlinerBarUsbTest -->
+      <class name="by.stormnet.web.OnlinerBarDdrTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="checkBarDdrTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- by.stormnet.web.OnlinerBarDdrTest -->
+    </classes>
+  </test> <!-- login test(failed) -->
+</suite> <!-- Failed suite [Acceptance suite] -->

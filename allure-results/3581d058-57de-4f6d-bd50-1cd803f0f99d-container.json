@@ -1,0 +1,1 @@
+{"uuid":"3581d058-57de-4f6d-bd50-1cd803f0f99d","name":"by.stormnet.web.OnlinerCheckCartTest","children":["4970c02a-f75f-42c8-a262-9a0dd5db5a13"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1579608898538,"stop":1579608900305}],"afters":[],"links":[],"start":1579608879329,"stop":1579609179874}

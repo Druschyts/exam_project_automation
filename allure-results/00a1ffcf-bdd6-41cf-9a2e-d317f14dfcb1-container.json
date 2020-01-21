@@ -1,0 +1,1 @@
+{"uuid":"00a1ffcf-bdd6-41cf-9a2e-d317f14dfcb1","name":"by.stormnet.web.OnlinerBarLopTopTest","children":["23f14c8d-91c1-490c-8637-975bf866117b"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1579610464267,"stop":1579610466778}],"afters":[],"links":[],"start":1579610319667,"stop":1579610619347}
