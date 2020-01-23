@@ -1,0 +1,1 @@
+{"uuid":"bd935a14-63e8-4890-95cf-056f4c6e225a","name":"by.stormnet.web.OnlinerBarMobileTest","children":["98cd7b6c-2622-457c-9930-e7e2a8463897"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1579624279682,"stop":1579624281722}],"afters":[],"links":[],"start":1579624083308,"stop":1579624473980}

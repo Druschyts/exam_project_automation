@@ -1,0 +1,1 @@
+{"uuid":"2d9cd337-6c8e-4eb8-b2db-8c02e7eca0b9","name":"by.stormnet.web.OnlinerPhoensTest","children":["621bd77f-058e-4c7d-853e-f15b598c889f"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1579614220336,"stop":1579614222297}],"afters":[],"links":[],"start":1579614133632,"stop":1579614386160}

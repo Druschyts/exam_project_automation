@@ -1,0 +1,1 @@
+{"uuid":"cc0c7552-fb5e-48ee-b69d-4916ef29cd54","name":"by.stormnet.web.OnlinerBarClothesTest","children":["900d25a1-00cf-47bd-b33e-d515c7055e89"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1579614321245,"stop":1579614323227}],"afters":[],"links":[],"start":1579614133629,"stop":1579614386125}

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="249.375" tests="30" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="395.573" tests="30" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-12.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\Servantes\AppData\Local\Temp\surefire2916356517205954175\surefirebooter14381307081704574622.jar C:\Users\Servantes\AppData\Local\Temp\surefire2916356517205954175 2020-01-21T16-21-55_737-jvmRun1 surefire971193827913440009tmp surefire_07571553758127862682tmp"/>
+    <property name="sun.java.command" value="C:\Users\Servantes\AppData\Local\Temp\surefire3606766392820880017\surefirebooter913603608317654606.jar C:\Users\Servantes\AppData\Local\Temp\surefire3606766392820880017 2020-01-21T19-27-55_830-jvmRun1 surefire1352271909815751607tmp surefire_05610709276382115533tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\Projects\exam_project_automation\target\test-classes;D:\Projects\exam_project_automation\target\classes;C:\Users\Servantes\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Servantes\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Servantes\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Servantes\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Servantes\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Servantes\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Servantes\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Servantes\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Servantes\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Servantes\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Servantes\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Servantes\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Servantes\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Servantes\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Servantes\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Servantes\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Servantes\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Servantes\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Servantes\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Servantes\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Servantes\.m2\repository\io\qameta\allure\allure-testng\2.8.1\allure-testng-2.8.1.jar;C:\Users\Servantes\.m2\repository\io\qameta\allure\allure-descriptions-javadoc\2.8.1\allure-descriptions-javadoc-2.8.1.jar;C:\Users\Servantes\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Servantes\.m2\repository\io\qameta\allure\allure-java-commons\2.8.1\allure-java-commons-2.8.1.jar;C:\Users\Servantes\.m2\repository\io\qameta\allure\allure-model\2.8.1\allure-model-2.8.1.jar;C:\Users\Servantes\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.7\jackson-databind-2.9.7.jar;C:\Users\Servantes\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\Servantes\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.7\jackson-core-2.9.7.jar;C:\Users\Servantes\.m2\repository\org\apache\tika\tika-core\1.19.1\tika-core-1.19.1.jar;C:\Users\Servantes\.m2\repository\org\aspectj\aspectjrt\1.9.1\aspectjrt-1.9.1.jar;C:\Users\Servantes\.m2\repository\org\jooq\joor-java-8\0.9.9\joor-java-8-0.9.9.jar;C:\Users\Servantes\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Servantes\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\Servantes\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -34,7 +34,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Servantes\AppData\Local\Temp\surefire2916356517205954175\surefirebooter14381307081704574622.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Servantes\AppData\Local\Temp\surefire3606766392820880017\surefirebooter913603608317654606.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="12.0.1+12"/>
@@ -59,47 +59,34 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="56.0"/>
   </properties>
-  <testcase name="loginTest" classname="by.stormnet.web.LoginOnlinerTest" time="3.537"/>
-  <testcase name="openNews" classname="by.stormnet.web.OnlinerNewsTest" time="6.42"/>
-  <testcase name="checkCartTest" classname="by.stormnet.web.OnlinerCheckCartTest" time="2.511"/>
-  <testcase name="searchAndFilter" classname="by.stormnet.web.OnlinerCatalogTest" time="32.187"/>
-  <testcase name="checkWeatherTest" classname="by.stormnet.web.OnlinerWeatherTest" time="0.084">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//i[@class=&apos;phenomena-icon extra-small A10&apos;]&quot;}&#10;  (Session info: chrome=79.0.3945.117)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DRUSCHYTS&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\SERVAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52624}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 56246c3df8261e5b20152fc891897b1c&#10;*** Element info: {Using=xpath, value=//i[@class=&apos;phenomena-icon extra-small A10&apos;]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//i[@class='phenomena-icon extra-small A10']"}
-  (Session info: chrome=79.0.3945.117)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DRUSCHYTS', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\SERVAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52624}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 56246c3df8261e5b20152fc891897b1c
-*** Element info: {Using=xpath, value=//i[@class='phenomena-icon extra-small A10']}
-	at by.stormnet.web.OnlinerWeatherTest.checkWeatherTest(OnlinerWeatherTest.java:19)
-]]></failure>
-  </testcase>
-  <testcase name="checkCourseTest" classname="by.stormnet.web.OnlinerCoursesTest" time="4.221"/>
-  <testcase name="checkMobilePhoneTest" classname="by.stormnet.web.OnlinerMobilePhoneTest" time="5.566"/>
-  <testcase name="checkLoptopTest" classname="by.stormnet.web.OnlinerLoptopTest" time="3.407"/>
-  <testcase name="checkTiresTest" classname="by.stormnet.web.OnlinerTiresTest" time="4.15"/>
-  <testcase name="checkPhonesTest" classname="by.stormnet.web.OnlinerPhoensTest" time="4.983"/>
-  <testcase name="checkClockest" classname="by.stormnet.web.OnlinerClockTest" time="4.32"/>
-  <testcase name="checkTvTest" classname="by.stormnet.web.OnlinerTvTest" time="4.304"/>
-  <testcase name="checkVideoCardsTest" classname="by.stormnet.web.OnlinerVideoCardsTest" time="3.677"/>
-  <testcase name="checkTabletsTest" classname="by.stormnet.web.OnlinerTabletsTest" time="4.355"/>
-  <testcase name="checkCamerasTest" classname="by.stormnet.web.OnlinerCamerasTest" time="4.272"/>
-  <testcase name="checkBarMobileTest" classname="by.stormnet.web.OnlinerBarMobileTest" time="7.041"/>
-  <testcase name="checkBarLopTopTest" classname="by.stormnet.web.OnlinerBarLopTopTest" time="5.839"/>
-  <testcase name="checkBarSaleRoomTest" classname="by.stormnet.web.OnlinerBarSaleRoomTest" time="8.579"/>
-  <testcase name="checkBarGiftsTest" classname="by.stormnet.web.OnlinerBarGiftsTest" time="7.175"/>
-  <testcase name="checkBarRentRoomTest" classname="by.stormnet.web.OnlinerBarRentRoomTest" time="5.767"/>
-  <testcase name="checkBarTreesTest" classname="by.stormnet.web.OnlinerBarTreesTest" time="6.431"/>
-  <testcase name="checkBarNewYearTest" classname="by.stormnet.web.OnlinerBarNewYearTest" time="5.728"/>
-  <testcase name="checkBarClothesTest" classname="by.stormnet.web.OnlinerBarClothesTest" time="5.282"/>
-  <testcase name="checkBarMobileAccTest" classname="by.stormnet.web.OnlinerBarMobileAccTest" time="6.763"/>
-  <testcase name="checkBarMobileServicesTest" classname="by.stormnet.web.OnlinerBarMobileServicesTest" time="6.291"/>
-  <testcase name="checkBarRadioTest" classname="by.stormnet.web.OnlinerBarRadioTest" time="5.372"/>
-  <testcase name="checkBarAppleTest" classname="by.stormnet.web.OnlinerBarAppleTest" time="5.989"/>
-  <testcase name="checkDarUsbTest" classname="by.stormnet.web.OnlinerBarUsbTest" time="5.688"/>
-  <testcase name="checkBarVideoTest" classname="by.stormnet.web.OnlinerBarVideoTest" time="5.41"/>
-  <testcase name="checkBarDdrTest" classname="by.stormnet.web.OnlinerBarDdrTest" time="5.572"/>
+  <testcase name="loginTest" classname="by.stormnet.web.LoginOnlinerTest" time="3.647"/>
+  <testcase name="openNews" classname="by.stormnet.web.OnlinerNewsTest" time="11.871"/>
+  <testcase name="checkCartTest" classname="by.stormnet.web.OnlinerCheckCartTest" time="2.981"/>
+  <testcase name="searchAndFilter" classname="by.stormnet.web.OnlinerCatalogTest" time="31.666"/>
+  <testcase name="checkWeatherTest" classname="by.stormnet.web.OnlinerWeatherTest" time="1.886"/>
+  <testcase name="checkCourseTest" classname="by.stormnet.web.OnlinerCoursesTest" time="5.819"/>
+  <testcase name="checkMobilePhoneTest" classname="by.stormnet.web.OnlinerMobilePhoneTest" time="5.689"/>
+  <testcase name="checkLoptopTest" classname="by.stormnet.web.OnlinerLoptopTest" time="3.855"/>
+  <testcase name="checkTiresTest" classname="by.stormnet.web.OnlinerTiresTest" time="66.256"/>
+  <testcase name="checkPhonesTest" classname="by.stormnet.web.OnlinerPhoensTest" time="5.323"/>
+  <testcase name="checkClockest" classname="by.stormnet.web.OnlinerClockTest" time="8.84"/>
+  <testcase name="checkTvTest" classname="by.stormnet.web.OnlinerTvTest" time="4.125"/>
+  <testcase name="checkVideoCardsTest" classname="by.stormnet.web.OnlinerVideoCardsTest" time="3.596"/>
+  <testcase name="checkTabletsTest" classname="by.stormnet.web.OnlinerTabletsTest" time="4.025"/>
+  <testcase name="checkCamerasTest" classname="by.stormnet.web.OnlinerCamerasTest" time="4.534"/>
+  <testcase name="checkBarMobileTest" classname="by.stormnet.web.OnlinerBarMobileTest" time="9.208"/>
+  <testcase name="checkBarLopTopTest" classname="by.stormnet.web.OnlinerBarLopTopTest" time="7.192"/>
+  <testcase name="checkBarSaleRoomTest" classname="by.stormnet.web.OnlinerBarSaleRoomTest" time="14.191"/>
+  <testcase name="checkBarGiftsTest" classname="by.stormnet.web.OnlinerBarGiftsTest" time="8.998"/>
+  <testcase name="checkBarRentRoomTest" classname="by.stormnet.web.OnlinerBarRentRoomTest" time="7.686"/>
+  <testcase name="checkBarTreesTest" classname="by.stormnet.web.OnlinerBarTreesTest" time="15.669"/>
+  <testcase name="checkBarNewYearTest" classname="by.stormnet.web.OnlinerBarNewYearTest" time="19.061"/>
+  <testcase name="checkBarClothesTest" classname="by.stormnet.web.OnlinerBarClothesTest" time="10.652"/>
+  <testcase name="checkBarMobileAccTest" classname="by.stormnet.web.OnlinerBarMobileAccTest" time="10.152"/>
+  <testcase name="checkBarMobileServicesTest" classname="by.stormnet.web.OnlinerBarMobileServicesTest" time="10.17"/>
+  <testcase name="checkBarRadioTest" classname="by.stormnet.web.OnlinerBarRadioTest" time="10.723"/>
+  <testcase name="checkBarAppleTest" classname="by.stormnet.web.OnlinerBarAppleTest" time="11.054"/>
+  <testcase name="checkDarUsbTest" classname="by.stormnet.web.OnlinerBarUsbTest" time="7.572"/>
+  <testcase name="checkBarVideoTest" classname="by.stormnet.web.OnlinerBarVideoTest" time="6.51"/>
+  <testcase name="checkBarDdrTest" classname="by.stormnet.web.OnlinerBarDdrTest" time="10.802"/>
 </testsuite>

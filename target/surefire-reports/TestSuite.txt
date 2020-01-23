@@ -1,17 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 30, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 249.375 s <<< FAILURE! - in TestSuite
-by.stormnet.web.OnlinerWeatherTest.checkWeatherTest  Time elapsed: 0.084 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//i[@class='phenomena-icon extra-small A10']"}
-  (Session info: chrome=79.0.3945.117)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DRUSCHYTS', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\SERVAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52624}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 56246c3df8261e5b20152fc891897b1c
-*** Element info: {Using=xpath, value=//i[@class='phenomena-icon extra-small A10']}
-	at by.stormnet.web.OnlinerWeatherTest.checkWeatherTest(OnlinerWeatherTest.java:19)
-
+Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 395.573 s - in TestSuite

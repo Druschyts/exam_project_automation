@@ -1,0 +1,1 @@
+{"uuid":"34d71fb7-c9fa-437b-a8cb-cc736bbd37f7","name":"by.stormnet.web.OnlinerLoptopTest","children":["69fe5abe-b329-4326-9b37-d477ff9f25ea"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1579614207685,"stop":1579614210006}],"afters":[],"links":[],"start":1579614133632,"stop":1579614386156}

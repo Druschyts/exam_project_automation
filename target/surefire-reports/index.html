@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Acceptance_suite" class="navigator-link">
-              <span class="suite-name border-failed">Acceptance suite</span>
+              <span class="suite-name border-passed">Acceptance suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">30 methods, 1 failed,   29 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Acceptance_suite" class="hide-methods failed suite-Acceptance_suite"> (hide)</a> <!-- hide-methods failed suite-Acceptance_suite -->
-                      <a href="#" panel-name="suite-Acceptance_suite" class="show-methods failed suite-Acceptance_suite"> (show)</a> <!-- show-methods failed suite-Acceptance_suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Acceptance_suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Acceptance_suite" title="by.stormnet.web.OnlinerWeatherTest" class="method navigator-link" hash-for-method="checkWeatherTest">checkWeatherTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Acceptance_suite -->
+                    <span class="method-stats">30 methods,   30 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -246,6 +232,11 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Acceptance_suite" title="by.stormnet.web.OnlinerWeatherTest" class="method navigator-link" hash-for-method="checkWeatherTest">checkWeatherTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Acceptance_suite" title="by.stormnet.web.LoginOnlinerTest" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -271,83 +262,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Acceptance_suite" class="panel Acceptance_suite">
-          <div class="suite-Acceptance_suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">by.stormnet.web.OnlinerWeatherTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="checkWeatherTest">
-                  </a> <!-- checkWeatherTest -->
-                  <span class="method-name">checkWeatherTest</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//i[@class=&apos;phenomena-icon extra-small A10&apos;]&quot;}
-  (Session info: chrome=79.0.3945.117)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DRUSCHYTS&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;12.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\SERVAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52624}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 56246c3df8261e5b20152fc891897b1c
-*** Element info: {Using=xpath, value=//i[@class=&apos;phenomena-icon extra-small A10&apos;]}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at by.stormnet.web.pages.AbstractPage.getElement(AbstractPage.java:55)
-	at by.stormnet.web.pages.OnlinerWeatherPage.clickWeatherButton(OnlinerWeatherPage.java:18)
-	at by.stormnet.web.helpers.OnlinerWeatherHelper.clickWeather(OnlinerWeatherHelper.java:15)
-	at by.stormnet.web.OnlinerWeatherTest.checkWeatherTest(OnlinerWeatherTest.java:19)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-	at org.testng.TestRunner.privateRun(TestRunner.java:770)
-	at org.testng.TestRunner.run(TestRunner.java:591)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-	at org.testng.TestNG.runSuites(TestNG.java:1032)
-	at org.testng.TestNG.run(TestNG.java:1000)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
-
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Acceptance_suite-class-failed -->
           <div class="suite-Acceptance_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -426,6 +340,21 @@ Session ID: 56246c3df8261e5b20152fc891897b1c
           <div class="suite-Acceptance_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">by.stormnet.web.OnlinerPhoensTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkPhonesTest">
+                  </a> <!-- checkPhonesTest -->
+                  <span class="method-name">checkPhonesTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Acceptance_suite-class-passed -->
+          <div class="suite-Acceptance_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">by.stormnet.web.OnlinerBarRadioTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -441,14 +370,14 @@ Session ID: 56246c3df8261e5b20152fc891897b1c
           <div class="suite-Acceptance_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">by.stormnet.web.OnlinerPhoensTest</span>
+              <span class="class-name">by.stormnet.web.OnlinerWeatherTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="checkPhonesTest">
-                  </a> <!-- checkPhonesTest -->
-                  <span class="method-name">checkPhonesTest</span>
+                  <a name="checkWeatherTest">
+                  </a> <!-- checkWeatherTest -->
+                  <span class="method-name">checkWeatherTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -546,21 +475,6 @@ Session ID: 56246c3df8261e5b20152fc891897b1c
           <div class="suite-Acceptance_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">by.stormnet.web.OnlinerBarNewYearTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="checkBarNewYearTest">
-                  </a> <!-- checkBarNewYearTest -->
-                  <span class="method-name">checkBarNewYearTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Acceptance_suite-class-passed -->
-          <div class="suite-Acceptance_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">by.stormnet.web.OnlinerNewsTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -569,6 +483,21 @@ Session ID: 56246c3df8261e5b20152fc891897b1c
                   <a name="openNews">
                   </a> <!-- openNews -->
                   <span class="method-name">openNews</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Acceptance_suite-class-passed -->
+          <div class="suite-Acceptance_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">by.stormnet.web.OnlinerBarNewYearTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkBarNewYearTest">
+                  </a> <!-- checkBarNewYearTest -->
+                  <span class="method-name">checkBarNewYearTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -711,14 +640,14 @@ Session ID: 56246c3df8261e5b20152fc891897b1c
           <div class="suite-Acceptance_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">by.stormnet.web.OnlinerBarMobileServicesTest</span>
+              <span class="class-name">by.stormnet.web.OnlinerMobilePhoneTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="checkBarMobileServicesTest">
-                  </a> <!-- checkBarMobileServicesTest -->
-                  <span class="method-name">checkBarMobileServicesTest</span>
+                  <a name="checkMobilePhoneTest">
+                  </a> <!-- checkMobilePhoneTest -->
+                  <span class="method-name">checkMobilePhoneTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -741,14 +670,14 @@ Session ID: 56246c3df8261e5b20152fc891897b1c
           <div class="suite-Acceptance_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">by.stormnet.web.OnlinerMobilePhoneTest</span>
+              <span class="class-name">by.stormnet.web.OnlinerBarMobileServicesTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="checkMobilePhoneTest">
-                  </a> <!-- checkMobilePhoneTest -->
-                  <span class="method-name">checkMobilePhoneTest</span>
+                  <a name="checkBarMobileServicesTest">
+                  </a> <!-- checkBarMobileServicesTest -->
+                  <span class="method-name">checkBarMobileServicesTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -866,130 +795,130 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(30);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'searchAndFilter')
-data.setCell(0, 2, 'by.stormnet.web.OnlinerCatalogTest')
-data.setCell(0, 3, 32185);
+data.setCell(0, 1, 'checkTiresTest')
+data.setCell(0, 2, 'by.stormnet.web.OnlinerTiresTest')
+data.setCell(0, 3, 66260);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'checkBarSaleRoomTest')
-data.setCell(1, 2, 'by.stormnet.web.OnlinerBarSaleRoomTest')
-data.setCell(1, 3, 8579);
+data.setCell(1, 1, 'searchAndFilter')
+data.setCell(1, 2, 'by.stormnet.web.OnlinerCatalogTest')
+data.setCell(1, 3, 31678);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'checkBarGiftsTest')
-data.setCell(2, 2, 'by.stormnet.web.OnlinerBarGiftsTest')
-data.setCell(2, 3, 7177);
+data.setCell(2, 1, 'checkBarNewYearTest')
+data.setCell(2, 2, 'by.stormnet.web.OnlinerBarNewYearTest')
+data.setCell(2, 3, 19065);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'checkBarMobileTest')
-data.setCell(3, 2, 'by.stormnet.web.OnlinerBarMobileTest')
-data.setCell(3, 3, 7036);
+data.setCell(3, 1, 'checkBarTreesTest')
+data.setCell(3, 2, 'by.stormnet.web.OnlinerBarTreesTest')
+data.setCell(3, 3, 15637);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'checkBarMobileAccTest')
-data.setCell(4, 2, 'by.stormnet.web.OnlinerBarMobileAccTest')
-data.setCell(4, 3, 6764);
+data.setCell(4, 1, 'checkBarSaleRoomTest')
+data.setCell(4, 2, 'by.stormnet.web.OnlinerBarSaleRoomTest')
+data.setCell(4, 3, 14191);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'checkBarTreesTest')
-data.setCell(5, 2, 'by.stormnet.web.OnlinerBarTreesTest')
-data.setCell(5, 3, 6432);
+data.setCell(5, 1, 'openNews')
+data.setCell(5, 2, 'by.stormnet.web.OnlinerNewsTest')
+data.setCell(5, 3, 11867);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'openNews')
-data.setCell(6, 2, 'by.stormnet.web.OnlinerNewsTest')
-data.setCell(6, 3, 6417);
+data.setCell(6, 1, 'checkBarAppleTest')
+data.setCell(6, 2, 'by.stormnet.web.OnlinerBarAppleTest')
+data.setCell(6, 3, 11058);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'checkBarAppleTest')
-data.setCell(7, 2, 'by.stormnet.web.OnlinerBarAppleTest')
-data.setCell(7, 3, 5989);
+data.setCell(7, 1, 'checkBarDdrTest')
+data.setCell(7, 2, 'by.stormnet.web.OnlinerBarDdrTest')
+data.setCell(7, 3, 10782);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'checkBarLopTopTest')
-data.setCell(8, 2, 'by.stormnet.web.OnlinerBarLopTopTest')
-data.setCell(8, 3, 5838);
+data.setCell(8, 1, 'checkBarRadioTest')
+data.setCell(8, 2, 'by.stormnet.web.OnlinerBarRadioTest')
+data.setCell(8, 3, 10711);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'checkBarRentRoomTest')
-data.setCell(9, 2, 'by.stormnet.web.OnlinerBarRentRoomTest')
-data.setCell(9, 3, 5763);
+data.setCell(9, 1, 'checkBarClothesTest')
+data.setCell(9, 2, 'by.stormnet.web.OnlinerBarClothesTest')
+data.setCell(9, 3, 10652);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'checkBarNewYearTest')
-data.setCell(10, 2, 'by.stormnet.web.OnlinerBarNewYearTest')
-data.setCell(10, 3, 5728);
+data.setCell(10, 1, 'checkBarMobileServicesTest')
+data.setCell(10, 2, 'by.stormnet.web.OnlinerBarMobileServicesTest')
+data.setCell(10, 3, 10174);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'checkBarMobileServicesTest')
-data.setCell(11, 2, 'by.stormnet.web.OnlinerBarMobileServicesTest')
-data.setCell(11, 3, 5699);
+data.setCell(11, 1, 'checkBarMobileAccTest')
+data.setCell(11, 2, 'by.stormnet.web.OnlinerBarMobileAccTest')
+data.setCell(11, 3, 10152);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'checkDarUsbTest')
-data.setCell(12, 2, 'by.stormnet.web.OnlinerBarUsbTest')
-data.setCell(12, 3, 5686);
+data.setCell(12, 1, 'checkBarMobileTest')
+data.setCell(12, 2, 'by.stormnet.web.OnlinerBarMobileTest')
+data.setCell(12, 3, 9204);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'checkBarDdrTest')
-data.setCell(13, 2, 'by.stormnet.web.OnlinerBarDdrTest')
-data.setCell(13, 3, 5572);
+data.setCell(13, 1, 'checkBarGiftsTest')
+data.setCell(13, 2, 'by.stormnet.web.OnlinerBarGiftsTest')
+data.setCell(13, 3, 8986);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'checkMobilePhoneTest')
-data.setCell(14, 2, 'by.stormnet.web.OnlinerMobilePhoneTest')
-data.setCell(14, 3, 5566);
+data.setCell(14, 1, 'checkClockest')
+data.setCell(14, 2, 'by.stormnet.web.OnlinerClockTest')
+data.setCell(14, 3, 8844);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'checkBarVideoTest')
-data.setCell(15, 2, 'by.stormnet.web.OnlinerBarVideoTest')
-data.setCell(15, 3, 5411);
+data.setCell(15, 1, 'checkBarRentRoomTest')
+data.setCell(15, 2, 'by.stormnet.web.OnlinerBarRentRoomTest')
+data.setCell(15, 3, 7654);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'checkBarRadioTest')
-data.setCell(16, 2, 'by.stormnet.web.OnlinerBarRadioTest')
-data.setCell(16, 3, 5377);
+data.setCell(16, 1, 'checkDarUsbTest')
+data.setCell(16, 2, 'by.stormnet.web.OnlinerBarUsbTest')
+data.setCell(16, 3, 7576);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'checkBarClothesTest')
-data.setCell(17, 2, 'by.stormnet.web.OnlinerBarClothesTest')
-data.setCell(17, 3, 5283);
+data.setCell(17, 1, 'checkBarLopTopTest')
+data.setCell(17, 2, 'by.stormnet.web.OnlinerBarLopTopTest')
+data.setCell(17, 3, 7196);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'checkPhonesTest')
-data.setCell(18, 2, 'by.stormnet.web.OnlinerPhoensTest')
-data.setCell(18, 3, 4984);
+data.setCell(18, 1, 'checkBarVideoTest')
+data.setCell(18, 2, 'by.stormnet.web.OnlinerBarVideoTest')
+data.setCell(18, 3, 6514);
 data.setCell(19, 0, 19)
-data.setCell(19, 1, 'checkTabletsTest')
-data.setCell(19, 2, 'by.stormnet.web.OnlinerTabletsTest')
-data.setCell(19, 3, 4356);
+data.setCell(19, 1, 'checkCourseTest')
+data.setCell(19, 2, 'by.stormnet.web.OnlinerCoursesTest')
+data.setCell(19, 3, 5727);
 data.setCell(20, 0, 20)
-data.setCell(20, 1, 'checkClockest')
-data.setCell(20, 2, 'by.stormnet.web.OnlinerClockTest')
-data.setCell(20, 3, 4322);
+data.setCell(20, 1, 'checkMobilePhoneTest')
+data.setCell(20, 2, 'by.stormnet.web.OnlinerMobilePhoneTest')
+data.setCell(20, 3, 5601);
 data.setCell(21, 0, 21)
-data.setCell(21, 1, 'checkTvTest')
-data.setCell(21, 2, 'by.stormnet.web.OnlinerTvTest')
-data.setCell(21, 3, 4306);
+data.setCell(21, 1, 'checkPhonesTest')
+data.setCell(21, 2, 'by.stormnet.web.OnlinerPhoensTest')
+data.setCell(21, 3, 5311);
 data.setCell(22, 0, 22)
 data.setCell(22, 1, 'checkCamerasTest')
 data.setCell(22, 2, 'by.stormnet.web.OnlinerCamerasTest')
-data.setCell(22, 3, 4274);
+data.setCell(22, 3, 4514);
 data.setCell(23, 0, 23)
-data.setCell(23, 1, 'checkCourseTest')
-data.setCell(23, 2, 'by.stormnet.web.OnlinerCoursesTest')
-data.setCell(23, 3, 4223);
+data.setCell(23, 1, 'checkTvTest')
+data.setCell(23, 2, 'by.stormnet.web.OnlinerTvTest')
+data.setCell(23, 3, 4033);
 data.setCell(24, 0, 24)
-data.setCell(24, 1, 'checkTiresTest')
-data.setCell(24, 2, 'by.stormnet.web.OnlinerTiresTest')
-data.setCell(24, 3, 4151);
+data.setCell(24, 1, 'checkTabletsTest')
+data.setCell(24, 2, 'by.stormnet.web.OnlinerTabletsTest')
+data.setCell(24, 3, 4029);
 data.setCell(25, 0, 25)
-data.setCell(25, 1, 'checkVideoCardsTest')
-data.setCell(25, 2, 'by.stormnet.web.OnlinerVideoCardsTest')
-data.setCell(25, 3, 3679);
+data.setCell(25, 1, 'checkLoptopTest')
+data.setCell(25, 2, 'by.stormnet.web.OnlinerLoptopTest')
+data.setCell(25, 3, 3839);
 data.setCell(26, 0, 26)
 data.setCell(26, 1, 'loginTest')
 data.setCell(26, 2, 'by.stormnet.web.LoginOnlinerTest')
-data.setCell(26, 3, 3487);
+data.setCell(26, 3, 3611);
 data.setCell(27, 0, 27)
-data.setCell(27, 1, 'checkLoptopTest')
-data.setCell(27, 2, 'by.stormnet.web.OnlinerLoptopTest')
-data.setCell(27, 3, 3408);
+data.setCell(27, 1, 'checkVideoCardsTest')
+data.setCell(27, 2, 'by.stormnet.web.OnlinerVideoCardsTest')
+data.setCell(27, 3, 3583);
 data.setCell(28, 0, 28)
 data.setCell(28, 1, 'checkCartTest')
 data.setCell(28, 2, 'by.stormnet.web.OnlinerCheckCartTest')
-data.setCell(28, 3, 2514);
+data.setCell(28, 3, 2985);
 data.setCell(29, 0, 29)
 data.setCell(29, 1, 'checkWeatherTest')
 data.setCell(29, 2, 'by.stormnet.web.OnlinerWeatherTest')
-data.setCell(29, 3, 72);
+data.setCell(29, 3, 1890);
 window.suiteTableData['Acceptance_suite']= { tableData: data, tableDiv: 'times-div-Acceptance_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <span class="suite-total-time">Total running time: 5 minutes</span>
               <div id="times-div-Acceptance_suite">
               </div> <!-- times-div-Acceptance_suite -->
             </div> <!-- times-div -->
@@ -1022,324 +951,322 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">loginTest</span>
-                <span class="method-start">7542 ms</span>
+                <span class="method-start">9138 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">by.stormnet.web.OnlinerNewsTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">openNews</span>
-                <span class="method-start">11135 ms</span>
+                <span class="method-start">12857 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">by.stormnet.web.OnlinerCheckCartTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">17556 ms</span>
+                <span class="method-start">24728 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">checkCartTest</span>
-                <span class="method-start">19567 ms</span>
+                <span class="method-start">26432 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">by.stormnet.web.OnlinerCatalogTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">searchAndFilter</span>
-                <span class="method-start">22084 ms</span>
+                <span class="method-start">29417 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">by.stormnet.web.OnlinerWeatherTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">54272 ms</span>
+                <span class="method-start">61099 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">checkWeatherTest</span>
-                <span class="method-start">56132 ms</span>
+                <span class="method-start">63355 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">by.stormnet.web.OnlinerCoursesTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">56215 ms</span>
+                <span class="method-start">65249 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">checkCourseTest</span>
-                <span class="method-start">57588 ms</span>
+                <span class="method-start">67538 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">by.stormnet.web.OnlinerMobilePhoneTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">61813 ms</span>
+                <span class="method-start">73357 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">checkMobilePhoneTest</span>
-                <span class="method-start">63683 ms</span>
+                <span class="method-start">75420 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">by.stormnet.web.OnlinerLoptopTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">69251 ms</span>
+                <span class="method-start">81113 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">checkLoptopTest</span>
-                <span class="method-start">70993 ms</span>
+                <span class="method-start">82911 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">by.stormnet.web.OnlinerTiresTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">74404 ms</span>
+                <span class="method-start">86766 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">checkTiresTest</span>
-                <span class="method-start">76213 ms</span>
+                <span class="method-start">88751 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">by.stormnet.web.OnlinerPhoensTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">80367 ms</span>
+                <span class="method-start">155015 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">checkPhonesTest</span>
-                <span class="method-start">82232 ms</span>
+                <span class="method-start">156789 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">by.stormnet.web.OnlinerClockTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">87217 ms</span>
+                <span class="method-start">162116 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">checkClockest</span>
-                <span class="method-start">89168 ms</span>
+                <span class="method-start">164117 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">by.stormnet.web.OnlinerTvTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">93491 ms</span>
+                <span class="method-start">172961 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">checkTvTest</span>
-                <span class="method-start">95430 ms</span>
+                <span class="method-start">174907 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">by.stormnet.web.OnlinerVideoCardsTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">99738 ms</span>
+                <span class="method-start">179036 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">checkVideoCardsTest</span>
-                <span class="method-start">102371 ms</span>
+                <span class="method-start">180862 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">by.stormnet.web.OnlinerTabletsTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">106052 ms</span>
+                <span class="method-start">184462 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">checkTabletsTest</span>
-                <span class="method-start">107641 ms</span>
+                <span class="method-start">185872 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">by.stormnet.web.OnlinerCamerasTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">111999 ms</span>
+                <span class="method-start">189901 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">checkCamerasTest</span>
-                <span class="method-start">114172 ms</span>
+                <span class="method-start">191820 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">by.stormnet.web.OnlinerBarMobileTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">118447 ms</span>
+                <span class="method-start">196358 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">checkBarMobileTest</span>
-                <span class="method-start">120544 ms</span>
+                <span class="method-start">198398 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">by.stormnet.web.OnlinerBarLopTopTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">127588 ms</span>
+                <span class="method-start">207610 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">checkBarLopTopTest</span>
-                <span class="method-start">129776 ms</span>
+                <span class="method-start">210538 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">by.stormnet.web.OnlinerBarSaleRoomTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">135617 ms</span>
+                <span class="method-start">217738 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">checkBarSaleRoomTest</span>
-                <span class="method-start">137824 ms</span>
+                <span class="method-start">219826 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">by.stormnet.web.OnlinerBarGiftsTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">146405 ms</span>
+                <span class="method-start">234021 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">checkBarGiftsTest</span>
-                <span class="method-start">148346 ms</span>
+                <span class="method-start">236384 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">by.stormnet.web.OnlinerBarRentRoomTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">155525 ms</span>
+                <span class="method-start">245390 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">checkBarRentRoomTest</span>
-                <span class="method-start">157376 ms</span>
+                <span class="method-start">247235 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">by.stormnet.web.OnlinerBarTreesTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">163142 ms</span>
+                <span class="method-start">254925 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">checkBarTreesTest</span>
-                <span class="method-start">165158 ms</span>
+                <span class="method-start">256878 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">by.stormnet.web.OnlinerBarNewYearTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">171591 ms</span>
+                <span class="method-start">272547 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">checkBarNewYearTest</span>
-                <span class="method-start">173868 ms</span>
+                <span class="method-start">274555 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">by.stormnet.web.OnlinerBarClothesTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">179598 ms</span>
+                <span class="method-start">293620 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">checkBarClothesTest</span>
-                <span class="method-start">181521 ms</span>
+                <span class="method-start">297180 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">by.stormnet.web.OnlinerBarMobileAccTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">186806 ms</span>
+                <span class="method-start">307832 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">checkBarMobileAccTest</span>
-                <span class="method-start">188885 ms</span>
+                <span class="method-start">310159 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">by.stormnet.web.OnlinerBarMobileServicesTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">195652 ms</span>
+                <span class="method-start">320315 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">checkBarMobileServicesTest</span>
-                <span class="method-start">197611 ms</span>
+                <span class="method-start">322408 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">by.stormnet.web.OnlinerBarRadioTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">203905 ms</span>
+                <span class="method-start">332582 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">checkBarRadioTest</span>
-                <span class="method-start">205688 ms</span>
+                <span class="method-start">334708 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">by.stormnet.web.OnlinerBarAppleTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">211067 ms</span>
+                <span class="method-start">345435 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">checkBarAppleTest</span>
-                <span class="method-start">213167 ms</span>
+                <span class="method-start">347462 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">by.stormnet.web.OnlinerBarUsbTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">219158 ms</span>
+                <span class="method-start">358520 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">checkDarUsbTest</span>
-                <span class="method-start">221345 ms</span>
+                <span class="method-start">360672 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">by.stormnet.web.OnlinerBarVideoTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">227034 ms</span>
+                <span class="method-start">368248 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">checkBarVideoTest</span>
-                <span class="method-start">229260 ms</span>
+                <span class="method-start">370415 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">by.stormnet.web.OnlinerBarDdrTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">234672 ms</span>
+                <span class="method-start">376929 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">checkBarDdrTest</span>
-                <span class="method-start">236941 ms</span>
+                <span class="method-start">378978 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">242515 ms</span>
+                <span class="method-start">389780 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
